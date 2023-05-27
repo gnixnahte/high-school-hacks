@@ -1,0 +1,16 @@
+h1 {
+    margin-top: 25px;
+  }
+
+html {
+    height: 100%;
+  }  
+  body{
+    background-image: linear-gradient(#17232e, #243342,#2c3a4d);
+  }
+
+.box{
+  color: #c2cbd1;
+  background-color:#c2cbd1 ;
+
+}
