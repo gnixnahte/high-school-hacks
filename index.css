@@ -9,11 +9,11 @@ html {
 }  
 body{
   background-image: linear-gradient(to bottom right, #213438,#445054,#3f5c5e,#55706c);
-
+  
 }
 
 header{
-    background-image: linear-gradient(#15241e,#152224)
+  background-image: linear-gradient(#15241e,#152224)
 }
 
 *{
@@ -22,6 +22,10 @@ header{
     padding: 0;
 }
 
+
+h1{
+    background-image: linear-gradient(#15241e,#152224) 
+}
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
@@ -39,31 +43,27 @@ header {
     padding: 0px 0%;
 }
 
-h1{
-    background-image: linear-gradient(#15241e,#152224) 
-}
-
-
 .logo {
     width: 75px;
     margin-right: auto;
     margin-left: -5px;
     margin-bottom: 10px
-
 }
+
 
 
 .nav_links {
     list-style: none;
     margin-right: 15px;
     margin-left: 15px;
-
 }
 
 .nav_links li {
     display: inline-block;
     margin-right: 25px;
+    margin-left: auto;
     padding: 0px 30px'
+
 }
 
 .nav_links li a {
@@ -89,39 +89,4 @@ button:hover {
     opacity: 0.75;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-.slides{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    color:antiquewhite;
-    scroll-snap-align: start;
-}
-
-.slides img{
-    width: 350px;
-}
-
-.slides h2{
-    font-size: 70px;
-    font-weight: 600;
-    max-width: 650px; 
-    
-}
-
-.slide1{
-    background: linear-gradient(to bottom right, #213438,#445054,#3f5c5e,#55706c);
-}
-
-.slide2{
-    background: linear-gradient(to top right, #213438,#445054,#3f5c5e,#55706c);
-}
 
