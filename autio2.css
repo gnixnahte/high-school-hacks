@@ -45,16 +45,11 @@ h1{
 
 
 .logo {
-    cursor: pointer;
     width: 75px;
     margin-right: auto;
     margin-left: -5px;
     margin-bottom: 10px
 
-}
-
-.logo:hover {
-    opacity: 0.7;
 }
 
 .nav_links {
